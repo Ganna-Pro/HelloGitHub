@@ -23,6 +23,16 @@ namespace BikeApplication
             yourBike.Accelerate();
             yourBike.SetGear(2);
             yourBike.display();
+
+            Bike theirBike = new Bike(50, 4);
+            yourBike.speed = 25;
+            yourBike.gear = 1;
+            yourBike.Accelerate();
+            yourBike.SetGear(2);
+            yourBike.display();
+
+
+
         }
     }
 }
